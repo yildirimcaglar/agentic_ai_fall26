@@ -10,6 +10,7 @@ A support agent that keeps a long-term profile of each customer usually asks the
 - `husky_cases.json`: 40 labeled customer messages, 20 of them worth remembering (synthetic; the passwords and account numbers in them are made up)
 - `support_tools.py`: the Husky Tech support agent's tools and system prompt
 - `figures/memory_gate_graph.png`: the agent's graph
+- `example.env`: the keys the notebook reads, without values
 
 ## Running it
 
@@ -17,4 +18,4 @@ A support agent that keeps a long-term profile of each customer usually asks the
 pip install langchain langgraph langchain-anthropic typesafe-sdk python-dotenv
 ```
 
-Add `langchain-openai`, `langchain-google-genai`, or `langchain-ollama` instead of `langchain-anthropic` if you use another model. Put your keys in a `.env` file next to the notebook: `TYPESAFE_API_KEY` (from https://console.typesafe.ai/keys) and the key for your model, such as `ANTHROPIC_API_KEY`.
+Add `langchain-openai`, `langchain-google-genai`, or `langchain-ollama` instead of `langchain-anthropic` if you use another model. Copy `example.env` to `.env` next to the notebook and fill in `TYPESAFE_API_KEY` (from https://console.typesafe.ai/keys) and the key for your model, such as `ANTHROPIC_API_KEY`.

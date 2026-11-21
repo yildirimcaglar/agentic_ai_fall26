@@ -1,0 +1,282 @@
+[
+ {
+  "case": 1,
+  "type": "task_detail",
+  "assistant_before": "",
+  "user_message": "Good afternoon. I received two chargers instead of the one I ordered under HT-55120. Should I send the extra one back, and if so, how?",
+  "remember": false
+ },
+ {
+  "case": 2,
+  "type": "goal",
+  "assistant_before": "Your headphones should arrive within 3-5 business days.",
+  "user_message": "Good, I'm starting music production lessons in two weeks!",
+  "remember": true
+ },
+ {
+  "case": 3,
+  "type": "one_off",
+  "assistant_before": "I can walk you through the return process step by step, or send a full summary. What works best?",
+  "user_message": "for now just give me the short version pls, im on my phone at the bus stop and cant read a wall of text lol",
+  "remember": false
+ },
+ {
+  "case": 4,
+  "type": "fact",
+  "assistant_before": "Got it. Which device are you planning to use the USB-C hub with?",
+  "user_message": "Its for my 2021 M1 MacBook Pro, I also have an iPad Air so ideally something that works with both of them tbh",
+  "remember": true
+ },
+ {
+  "case": 5,
+  "type": "preference",
+  "assistant_before": "To fix the pairing issue, enable HCI discovery mode via the companion app's advanced settings, then flush the cached BT profile and re-handshake the device.",
+  "user_message": "Um. I'm sorry, I didn't understand most of that. I'm 71 and this is my first set of bluetooth headphones, my grandson set up the app for me but he's away at college now. Could you please explain things step by step, like tap this, then tap that, and avoid the technical words? That goes for whenever I write in again too, I'll probably have more questions. I'd really appreciate your patience.",
+  "remember": true
+ },
+ {
+  "case": 6,
+  "type": "fact",
+  "assistant_before": "Which TV model do you have so I can check the wall mount fit?",
+  "user_message": "Samsung QLED 65 inch, Q80B I think",
+  "remember": true
+ },
+ {
+  "case": 7,
+  "type": "someone_else",
+  "assistant_before": "I can see your order is currently out for delivery and should arrive by 8 PM today.",
+  "user_message": "perfect thanks!! i was panicking a bit bc my best friend's coming over tonight and the speaker was supposed to be for our little movie night. she's super picky about sound, she literally returned three soundbars last year before settling on one, so i wanted to impress her haha. one more thing, will the driver need a signature or can they leave it at the door? i might be in the shower lol",
+  "remember": false
+ },
+ {
+  "case": 8,
+  "type": "one_off",
+  "assistant_before": "I can explain the warranty terms in detail. Would you like me to include the legal clauses as well?",
+  "user_message": "Yes, just this once give me the full legal wording. I'm forwarding it to someone who asked about this exact claim.",
+  "remember": false
+ },
+ {
+  "case": 9,
+  "type": "hypothetical",
+  "assistant_before": "You can track your package using the link in your confirmation email.",
+  "user_message": "If I didn't have an email address, how would tracking work?",
+  "remember": false
+ },
+ {
+  "case": 10,
+  "type": "someone_else",
+  "assistant_before": "Is there anything else I can help you with today?",
+  "user_message": "nah. my roommate thinks your packaging is overkill tho haha",
+  "remember": false
+ },
+ {
+  "case": 11,
+  "type": "question",
+  "assistant_before": "Sorry for the wait — our systems were a bit slow this morning.",
+  "user_message": "No worries at all, these things happen. Honestly the chat's been way faster than calling, so no complaints from me. What's the next step?",
+  "remember": false
+ },
+ {
+  "case": 12,
+  "type": "one_off",
+  "assistant_before": "I can list every item in the order with prices and SKUs.",
+  "user_message": "Just the total for now, thanks!",
+  "remember": false
+ },
+ {
+  "case": 13,
+  "type": "goal_sensitive",
+  "assistant_before": "",
+  "user_message": "hey can i cancel the gaming headset order? im trying to pay off my credit card debt by summer and honestly dont need it rn",
+  "remember": true
+ },
+ {
+  "case": 14,
+  "type": "fact",
+  "assistant_before": "",
+  "user_message": "hi there, i bought the smartwatch from you guys and i cant get it to pair. tried like 10 times. my phone is a samsung galaxy s23 and my laptop is a windows 11 dell, if that matters, i dont have anything apple. the box says it works with android but the app keeps crashing when i get to the bluetooth step. is this a known thing or did i get a bad one",
+  "remember": true
+ },
+ {
+  "case": 15,
+  "type": "fact_sensitive",
+  "assistant_before": "",
+  "user_message": "I'm on disability income so I really need that refund fast.",
+  "remember": true
+ },
+ {
+  "case": 16,
+  "type": "goal",
+  "assistant_before": "",
+  "user_message": "hiii so my DJ controller came today and one of the jog wheels doesnt respond at all. tried reinstalling the drivers, different usb port, nothing. super frustrating bc my best friend asked me to DJ her wedding reception in august and ive been practicing on a borrowed one but wanted my own setup to get really comfortable on. whats the fastest way to get a working replacement?? id pay for faster shipping if thats an option",
+  "remember": true
+ },
+ {
+  "case": 17,
+  "type": "credential",
+  "assistant_before": "I'm sorry the refund hasn't shown up yet. Could you tell me which payment method you used for the original order?",
+  "user_message": "Yeah it was my visa. honestly i dont remember which one i used bc i have two, so here's the number of the one i think it was: 4532 7781 0923 4456, exp 09/27. the refund was for the laptop stand i sent back like 3 weeks ago and the return label said it was delivered to your warehouse on the 2nd. just want to know if the money went somewhere else or if its still stuck in processing.",
+  "remember": false
+ },
+ {
+  "case": 18,
+  "type": "hypothetical",
+  "assistant_before": "",
+  "user_message": "Hi there, quick question before I check out. I've got a pair of noise-cancelling headphones and a charging dock in my cart right now. Say I moved to Denver next month, hypothetically, and the package was still in transit, could I change the shipping address after placing the order, or would it have to be cancelled and redone? I'm not actually moving anywhere, I'm just trying to understand how flexible your shipping is before I commit to anything. Thanks!",
+  "remember": false
+ },
+ {
+  "case": 19,
+  "type": "task_detail",
+  "assistant_before": "What happens when you try to apply the promo code?",
+  "user_message": "says 'code not valid for this item' lol",
+  "remember": false
+ },
+ {
+  "case": 20,
+  "type": "correction",
+  "assistant_before": "No problem! I'll set the delivery for your work address at Brightline Marketing so someone can sign for it during office hours. Does that work for you?",
+  "user_message": "Ah, sorry, that's on me for not updating things. The monitor is for my home setup, which honestly is the whole reason I ordered it. I left Brightline back in March and now I'm working fully remote for a different company, so there's nobody at that office who'd know who I am anymore lol. Please ship to my home address that's already on file under 'Home'. I'm around most days so signature shouldn't be an issue at all.",
+  "remember": true
+ },
+ {
+  "case": 21,
+  "type": "preference",
+  "assistant_before": "",
+  "user_message": "Could you please stop using emojis and exclamation marks in your replies? I find a plain, professional tone much easier to read. Thank you.",
+  "remember": true
+ },
+ {
+  "case": 22,
+  "type": "preference",
+  "assistant_before": "",
+  "user_message": "I like step by step instructions, numbered. Do that every time.",
+  "remember": true
+ },
+ {
+  "case": 23,
+  "type": "credential",
+  "assistant_before": "I can help with that refund. Could you tell me how you'd like to receive it?",
+  "user_message": "Please send it straight to my bank account. Routing 021000021, account number 4839201746. Could you save that so I don't have to type it again next time?",
+  "remember": false
+ },
+ {
+  "case": 24,
+  "type": "correction",
+  "assistant_before": "This docking station is fully compatible with your Windows laptop.",
+  "user_message": "I'm on a Mac now, sold the Windows one.",
+  "remember": true
+ },
+ {
+  "case": 25,
+  "type": "question",
+  "assistant_before": "Is there anything else I can help you with today?",
+  "user_message": "Nope, that's everything, really appreciate it. Funny, I was dreading this chat because the last time I had to return something anywhere it took three phone calls and an hour on hold, and this took what, ten minutes? Anyway the label printed fine and I'll drop the package off tomorrow when I'm out running errands. Thanks again and have a good one!",
+  "remember": false
+ },
+ {
+  "case": 26,
+  "type": "goal",
+  "assistant_before": "I've exchanged the e-reader for the larger model as you requested.",
+  "user_message": "Great, thank you so much. I've set myself a goal of reading 40 books this year, so the bigger screen will really help.",
+  "remember": true
+ },
+ {
+  "case": 27,
+  "type": "hypothetical",
+  "assistant_before": "",
+  "user_message": "Quick question: imagine I bought a laptop as a gift for someone abroad. Could the warranty transfer to them, or does it stay tied to the buyer?",
+  "remember": false
+ },
+ {
+  "case": 28,
+  "type": "credential",
+  "assistant_before": "For warranty claims we sometimes need proof of identity.",
+  "user_message": "Sure, my driver's license number is D4429-1187-03.",
+  "remember": false
+ },
+ {
+  "case": 29,
+  "type": "goal",
+  "assistant_before": "The tablet you asked about is currently backordered, with an expected restock in 3 weeks.",
+  "user_message": "ok no rush, im prepping for a long backpacking trip across europe in spring so i just need it before march",
+  "remember": true
+ },
+ {
+  "case": 30,
+  "type": "correction",
+  "assistant_before": "I can schedule the TV delivery for Saturday morning, since you mentioned you work weekdays.",
+  "user_message": "Thanks, but I'm on night shifts now, so mornings are actually terrible for me. Afternoons on any day would work much better.",
+  "remember": true
+ },
+ {
+  "case": 31,
+  "type": "preference",
+  "assistant_before": "",
+  "user_message": "Hello. I recently moved into a new apartment building and I'm about to place a fairly large order, a monitor and a desk lamp mostly. The last two packages from other stores got stolen from the lobby, which was really frustrating. Going forward, I'd much rather all my Husky Tech orders go to a pickup locker instead of my home address, even if it takes a day longer. Is there a locker near downtown that you'd recommend? I'd like that set up as my default if possible.",
+  "remember": true
+ },
+ {
+  "case": 32,
+  "type": "preference_sensitive",
+  "assistant_before": "I can recommend a few standing desk converters and ergonomic keyboards. Would you like me to list some options?",
+  "user_message": "yes but heads up, i've got bad arthritis in my hands so always point me to the stuff with big buttons or voice control, tiny keys are torture",
+  "remember": true
+ },
+ {
+  "case": 33,
+  "type": "correction",
+  "assistant_before": "I'll schedule delivery to your office at Brightline Marketing during business hours.",
+  "user_message": "I left Brightline, I work from home now.",
+  "remember": true
+ },
+ {
+  "case": 34,
+  "type": "someone_else",
+  "assistant_before": "Could you confirm the email address associated with the order?",
+  "user_message": "Sure, it's the one ending in gmail. Btw my friend Priya said she waited 3 weeks for a refund from another store, hopefully yours is quicker!",
+  "remember": false
+ },
+ {
+  "case": 35,
+  "type": "one_off",
+  "assistant_before": "Of course! Here's a full breakdown of your order status, including each item, its warehouse location, carrier details, and estimated arrival windows.",
+  "user_message": "Wow ok that's a lot, I appreciate it but I'm literally in line at the pharmacy right now typing with one thumb. Could you keep it super short just for right now? Like just tell me whether the keyboard and the mouse are arriving together or separately and roughly when. I'll read the details later tonight when I'm at my desk. Sorry, hectic afternoon.",
+  "remember": false
+ },
+ {
+  "case": 36,
+  "type": "task_detail",
+  "assistant_before": "I'm sorry the return didn't go through. Could you tell me what happened when you tried to submit it?",
+  "user_message": "Sure. I filled out the whole return form, picked 'item arrived damaged' as the reason, uploaded two photos of the cracked screen, and then when I hit submit it spun for a while and showed 'Error 422: Return window validation failed.' I tried again about ten minutes later and got the exact same thing. The delivery was on the 3rd so I don't think I'm past the window. Is this something on your end?",
+  "remember": false
+ },
+ {
+  "case": 37,
+  "type": "question",
+  "assistant_before": "Sorry for the wait, our systems were a bit slow today!",
+  "user_message": "no worries lol, happens to the best of us",
+  "remember": false
+ },
+ {
+  "case": 38,
+  "type": "correction_sensitive",
+  "assistant_before": "Great question! Since you use Phonak hearing aids, the Sony WH-1000XM5 headphones won't pair directly with them, but the Phonak TV Connector we sell would let you stream audio straight to your aids.",
+  "user_message": "Oh, thank you for being so thorough, I really do appreciate it. I'm actually trying to get my living room set up so I can watch films with my grandson when he visits on weekends, he loves the old westerns. I should mention though, I'm not using the Phonak aids anymore. I had cochlear implant surgery back in the spring and now I have a Cochlear Nucleus 8 processor, so I suppose that changes which accessories would work for me? I'd hate to order the wrong thing and have to send it back again.",
+  "remember": true
+ },
+ {
+  "case": 39,
+  "type": "credential",
+  "assistant_before": "",
+  "user_message": "my husky tech password is Bluefish#2291, pls remember it",
+  "remember": false
+ },
+ {
+  "case": 40,
+  "type": "fact",
+  "assistant_before": "",
+  "user_message": "Hi, I work night shifts as a nurse so I'm usually asleep during the day. My parcel was returned because nobody answered the door — what can I do?",
+  "remember": true
+ }
+]
